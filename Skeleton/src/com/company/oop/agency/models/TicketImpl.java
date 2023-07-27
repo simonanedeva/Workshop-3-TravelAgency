@@ -31,7 +31,7 @@ public class TicketImpl implements Ticket {
     @Override
     //TODO
     public double calculatePrice() {
-        return costs * JourneyImpl.calculateTravelCosts();
+        return costs * journey.calculateTravelCosts();
     }
 
     @Override
